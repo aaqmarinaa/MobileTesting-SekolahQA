@@ -16,25 +16,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\QA life\\Sekolah\\Mobile\\Calculator_v7.8 (271241277)_apkpure.com.apk', true)
-
-WebUI.delay(2)
-
-Mobile.tap(findTestObject('Object Repository/TC1/android.widget.Button - 6'), 0)
-
-WebUI.delay(2)
-
-Mobile.tap(findTestObject('Object Repository/TC1/android.widget.Button - '), 0)
-
-WebUI.delay(2)
-
-Mobile.tap(findTestObject('Object Repository/TC1/android.widget.Button - 5'), 0)
-
-WebUI.delay(2)
-
-Mobile.tap(findTestObject('Object Repository/TC1/android.widget.Button -  (1)'), 0)
+Mobile.tap(findTestObject('Kalkulator/TC2/android.widget.Button - 2'), 0)
 
 WebUI.delay(3)
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Object Repository/Kalkulator/TC2/android.widget.Button - '), 0)
+
+WebUI.delay(3)
+
+Mobile.tap(findTestObject('Object Repository/Kalkulator/TC2/android.widget.Button - 8'), 0)
+
+WebUI.delay(3)
+
+Mobile.tap(findTestObject('Object Repository/Kalkulator/TC2/android.widget.Button -  (1)'), 0)
+
+WebUI.delay(3)
 
